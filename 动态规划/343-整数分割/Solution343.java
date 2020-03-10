@@ -3,10 +3,10 @@ import java.util.Scanner;
 /**
  * 解法一：记忆化搜索
  */
-public class Solution343{
+public class Solution343 {
     private int[] memory;
 
-    private int integerBreak(int n){
+    public int integerBreak(int n){
         memory = new int[n + 1];
         return breakInteger(n);
     }
@@ -39,8 +39,9 @@ public class Solution343{
 /**
  * 解法二：动态规划
  */
+/*
 
-class Solution{
+public class Solution343{
 
     private int integerBreak(int n){
         int[] dp = new int[n + 1];
@@ -68,3 +69,4 @@ class Solution{
     }
 }
 
+*/
